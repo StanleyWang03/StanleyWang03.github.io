@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>New HTML5 Input Types Demo</h1>
+	<p><h4>This form demonstrates the new HTML5 input types and the placeholder,required and autofocus attributes.</h4></p>
+	<p><lebel>Color:
+		<input type = "color" autofocus />
+			(Hexadecimal code such as #ADD8E6)
+	</lebel></p>
+	<p><form>
+	 	<label for="date">Date:</label>
+		<input type="date" id="date" name="date"> 
+			(yyyy-mm-dd)
+	</form></p>
+	<p><form> 
+		<label for="email">Email:</label>
+		<input type="email" name="email" placeholder="name@domain. com" required>
+			(name@domain.com)
+	</form></p>
+	<p><form>
+		<label for="number">Number:</label>
+		<input type="number" id="number" name="number"min="0" max="7" value="4">
+			(Enter a number between 0 and 7)
+	</form></p>
+	<p><form>
+		<label for="vol">Range:0</label>
+		<input type="range"id="range" name="range" min="0" max="20">
+			20
+	</form></p>
+	<p><form>
+		<label for="gsearch" >Search:</label>
+		<input type="search" name="search" placeholder="search query" required>
+	</form></p>
+	<p><form>
+		<label for="appt">Time:</label>
+		<input type="time"id="appt" name="appt">
+		(hh:mm)
+	</form></p>
+	<input type= "submit" value="Submit">
+	<input type= "reset" value="Clear">
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
